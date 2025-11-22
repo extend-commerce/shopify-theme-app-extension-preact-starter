@@ -1,0 +1,21 @@
+{
+  "name": "theme-extension",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "preact": "^10.27.2",
+    "preact-custom-element": "^4.6.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.2",
+    "@types/node": "^22.13.14",
+    "typescript": "^5.8.3",
+    "vite": "github:gadget-inc/vite#vite-v6.3.5-gitpkg-1f0e9a3d8"
+  }
+}
